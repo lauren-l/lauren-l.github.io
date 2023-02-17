@@ -1,0 +1,13 @@
+.nav-item-style {
+    font-family: "Source Sans Pro";
+    font-size: 16px !important;
+    font-weight: bolder;
+    color: #2d2d2d !important;
+}
+
+.nav-sub-item-style {
+    font-family: "Source Sans Pro";
+    font-size: 11px !important;
+    padding-top: 15px;
+    color: #2d2d2d !important;
+}
