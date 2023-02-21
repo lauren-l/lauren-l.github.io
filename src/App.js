@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Experience from "./pages/Experience/Experience"
 import Home from "./pages/Home/Home"
 import Projects from "./pages/Projects/Projects"
