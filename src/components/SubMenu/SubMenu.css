@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+.nav-sub-item-style {
+    font-family: "Source Sans Pro";
+    font-size: 17px !important;
+    text-align: bottom;
+    color: #2d2d2d !important;
+    display: inline;
+}

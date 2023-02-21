@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+.nav-item-style {
+    font-family: "Source Sans Pro";
+    font-size: 20px !important;
+    font-weight: bolder;
+    color: #2D2D2D !important;
+}
+
+.navbar {
+    background-color: #E4DDF4;
+}
