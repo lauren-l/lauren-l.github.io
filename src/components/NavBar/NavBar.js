@@ -19,7 +19,7 @@ export function NavBar() {
                                 <Link to="/experience" class="nav-link nav-item-style">Experience</Link>
                             </li>
                             <li class="nav-item">
-                                <Link to="/hci-blog" class="nav-link nav-item-style">HCI Blog</Link>
+                                <Link to="/hci-portfolio" class="nav-link nav-item-style">HCI Portfolio</Link>
                             </li>
                             <span onMouseEnter={() => setElementVisible(true)}
                                 onMouseLeave={() => setElementVisible(false)}>

@@ -3,6 +3,8 @@ import React from "react";
 import { NavBar } from "../../components/NavBar/NavBar";
 import "./HciBlog.css";
 import { BlogPostCard } from "../../components/BlogPostCard/BlogPostCard";
+import p1Cover from "../../img/proj1/cover.png";
+
 
 export default function HciBlog() {
     return (
@@ -14,7 +16,7 @@ export default function HciBlog() {
                 <div style={{ marginTop: '3rem' }}></div>
                 <div class="container">
                     <div class="row">
-                        <BlogPostCard title="Post 1" description="First Blog Post" />
+                        <BlogPostCard title="Project 1" description="Sixth Sense" img={p1Cover} link={"/hci-portfolio/project-1"} />
                     </div>
                 </div>
             </body>
