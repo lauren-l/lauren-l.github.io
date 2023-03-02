@@ -7,14 +7,15 @@ body {
 }
 
 html {
-    color: #444;
+    color: #2d2d2d;
     font-family: "Lora";
     font-size: 20px;
 }
 
 p {
     line-height: 1.8;
-    font-family: "Source Sans Pro";
+    font-family: "Source Sans Pro" !important;
+    color: #2d2d2d !important;
 }
 
 img {
@@ -23,16 +24,18 @@ img {
 }
 
 a {
-    color: black;
-    text-decoration: underline wavy var(--yellow);
+    color: #2d2d2d !important;
+    text-decoration: underline wavy #943d24;
 }
 
 h1,
 h2 {
     font-size: 80px;
+    font-family: "Lora" !important;
     font-style: italic;
     font-weight: 100;
     margin: 0;
+    color: #2d2d2d !important;
 }
 
 .post {
@@ -76,10 +79,10 @@ figcaption {
 .tip-left {
     grid-column: 1 / span 1;
     text-align: right;
-    border-right: 2px solid var(--yellow);
+    border-right: 2px solid #943d24;
 }
 
 .tip-right {
     grid-column: span 1 / -1;
-    border-left: 2px solid var(--yellow);
+    border-left: 2px solid #943d24;
 }
