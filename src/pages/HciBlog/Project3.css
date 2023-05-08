@@ -1,0 +1,88 @@
+:root {
+    --yellow: #ffc600;
+}
+
+body {
+    background-color: #fffbf0 !important;
+}
+
+html {
+    color: #2d2d2d;
+    font-family: "Lora";
+    font-size: 20px;
+}
+
+p {
+    line-height: 1.8;
+    font-family: "Source Sans Pro" !important;
+    color: #2d2d2d !important;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: #2d2d2d !important;
+    text-decoration: underline wavy #943d24;
+}
+
+h1,
+h2 {
+    font-size: 80px;
+    font-family: "Lora" !important;
+    font-style: italic;
+    font-weight: 100;
+    margin: 0;
+    color: #2d2d2d !important;
+}
+
+.post {
+    display: grid;
+    max-width: 1000px;
+    margin: 200px auto;
+    grid-template-columns: 3fr 12fr 5fr;
+    grid-gap: 10px 20px;
+}
+
+.post>* {
+    grid-column: 2 / -2;
+}
+
+.post>figure {
+    margin: 0;
+    grid-column: 2 / -2;
+    text-align: center;
+}
+
+
+figcaption {
+    font-size: 12px;
+}
+
+.post>blockquote {
+    grid-column: 1 / -1;
+    font-size: 60px;
+    margin: 0;
+    font-style: italic;
+    text-align: center;
+}
+
+.tip {
+    background: #EBEBEB;
+    padding: 10px;
+    grid-row: span 5;
+    align-self: start;
+}
+
+.tip-left {
+    grid-column: 1 / span 1;
+    text-align: right;
+    border-right: 2px solid #943d24;
+}
+
+.tip-right {
+    grid-column: span 1 / -1;
+    border-left: 2px solid #943d24;
+}

@@ -7,6 +7,9 @@ import Projects from "./pages/Projects/Projects"
 import TinDev from "./pages/Projects/TinDev/TinDev"
 import HciBlog from "./pages/HciBlog/HciBlog";
 import HciProject1 from "./pages/HciBlog/Project1"
+import HciProject2 from "./pages/HciBlog/Project2"
+import HciProject3 from "./pages/HciBlog/Project3"
+
 
 export default function App() {
   return (
@@ -18,6 +21,8 @@ export default function App() {
         <Route path='/hci-portfolio' element={<HciBlog />} />
         <Route path='/projects/TinDev' element={<TinDev />} />
         <Route path='/hci-portfolio/project-1' element={<HciProject1 />} />
+        <Route path='/hci-portfolio/project-2' element={<HciProject2 />} />
+        <Route path='/hci-portfolio/project-3' element={<HciProject3 />} />
       </Routes>
     </Router>
   );

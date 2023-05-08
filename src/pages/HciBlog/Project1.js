@@ -72,7 +72,7 @@ export default function HciProject1() {
 
 
                     <p>
-                        From these responses, we were able to narrow done a few specific aspects to improve. These include allergen/ingredient info,
+                        From these responses, we were able to narrow down a few specific aspects to improve. These include allergen/ingredient info,
                         wait times for meal pickup, table availability, expanding capabilities of mobile/online ordering (ability to pay in-app,
                         mobile receipt to avoid paying at kiosks), and having clear hours for each canteen. With these core features in mind, me and Tiffany
                         came up with two personas (Nick and Sarah) that represented the needs of the target audience
